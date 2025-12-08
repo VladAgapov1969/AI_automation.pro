@@ -51,7 +51,21 @@ PhD, Прикладная математика — University of Alberta (Top 25
 
 ## Контакт
 Для серьёзных запросов:  
-👉 [@Sovereign_AI_Results_Requests](https://t.me/Sovereign_AI_Results_Requests)  
+### Верифицированные Telegram-каналы
+
+⚠️ **Остерегайтесь поддельных каналов** `@AI_Results` и `@Sovereign_AI` — они **украдены** и заполнены спамом.
+
+✅ **Официальные каналы** (верифицированы в декабре 2025):
+
+- **Sovereign AI (на английском)**:  
+  [https://t.me/Digital_AI_Transformation](https://t.me/Digital_AI_Transformation)  
+  Имя: [@Sovereign_AI_Real](https://t.me/Sovereign_AI_Real)
+
+- **AI_Results (технические материалы / на русском)**:  
+  [https://t.me/DigitalRenaissanceGlobal](https://t.me/DigitalRenaissanceGlobal)  
+  Имя: [@AI_Results_Real](https://t.me/AI_Results_Real)
+
+Для B2B-сотрудничества пишите в **@Sovereign_AI_Results_Requests**.
 **Тема**: *«Аудит»*, *«Автоматизация»*, *«PowerBI»*  
 📧 vladislav.agapov@gmail.com  
 
