@@ -29,22 +29,24 @@
   .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
   .check-item{display:flex;align-items:flex-start;gap:12px;font-size:14px;color:#cbd5e1}
   .check-mark{color:#60a5fa;font-weight:700;font-size:16px}
-  .demo-link{display:block;padding:18px;background:#0f172a;border:1px solid #1e293b;border-radius:10px;text-decoration:none;transition:background .15s ease,border-color .15s ease}
-  .demo-link:hover{background:#1e293b;border-color:#334155}
-  .demo-title{font-weight:600;font-size:15px;color:#fff;margin-bottom:4px}
-  .demo-sub{font-size:13px;color:#94a3b8}
+  
+  /* Updated styles for the contact blocks */
+  .contact-box {display:flex; align-items:center; gap:12px; padding:18px; background:#0f172a; border:1px solid #1e293b; border-radius:10px;}
+  .contact-title {font-weight:600; font-size:13px; color:#94a3b8; text-transform:uppercase; letter-spacing:.05em; margin-bottom:2px;}
+  .contact-value {font-weight:600; font-size:16px; color:#fff; font-family:monospace, monospace;}
+  
   footer{border-top:1px solid #1e293b;padding-top:32px;margin-top:48px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px}
   .footer-title{font-size:18px;font-weight:700;color:#fff;margin-bottom:4px}
   .footer-sub{font-size:14px;color:#94a3b8}
-  .btn-group{display:flex;flex-wrap:wrap;gap:12px}
-  .btn-primary{display:inline-block;padding:11px 20px;background:#2563eb;color:#fff;text-decoration:none;font-size:14px;font-weight:600;border-radius:8px}
-  .btn-primary:hover{background:#1d4ed8}
-  .btn-secondary{display:inline-block;padding:11px 20px;background:#1e293b;color:#e2e8f0;border:1px solid #334155;text-decoration:none;font-size:14px;font-weight:600;border-radius:8px}
-  .btn-secondary:hover{background:#334155}
+  
+  /* Replaced buttons with static contact tags */
+  .contact-tag {display:inline-block; padding:8px 16px; background:#1e293b; color:#e2e8f0; border:1px solid #334155; font-size:14px; font-weight:600; border-radius:8px;}
+  
   strong{color:#fff;font-weight:600}
   @media (max-width:768px){
     .grid-3,.grid-2{grid-template-columns:1fr}
     h1{font-size:26px}
+    footer{flex-direction:column; align-items:flex-start}
   }
 </style>
 </head>
@@ -130,16 +132,20 @@
   </section>
 
   <section>
-    <h2>Примеры материалов и технические каналы</h2>
+    <h2>Контакты для связи</h2>
     <div class="grid-2">
-      <a href="https://t.me" target="_blank" rel="noopener" class="demo-link">
-        <div class="demo-title">Анализ продаж без облака &rarr;</div>
-        <div class="demo-sub">Кейс локальной аналитики с сохранением периметра данных</div>
-      </a>
-      <a href="https://t.me" target="_blank" rel="noopener" class="demo-link">
-        <div class="demo-title">Edge-CV на слабом железе &rarr;</div>
-        <div class="demo-sub">Демонстрация детекции в реальном времени на ARM и Jetson</div>
-      </a>
+      <div class="contact-box">
+        <div>
+          <div class="contact-title">Email</div>
+          <div class="contact-value">vladislav.agapov@gmail.com</div>
+        </div>
+      </div>
+      <div class="contact-box">
+        <div>
+          <div class="contact-title">Telegram</div>
+          <div class="contact-value">@agapov_vl</div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -149,8 +155,8 @@
       <div class="footer-sub">B2B R&amp;D · прикладной AI · Edge-CV · матмоделирование</div>
     </div>
     <div class="btn-group">
-      <a href="https://t.me" target="_blank" rel="noopener" class="btn-primary">Обсудить пилот</a>
-      <a href="https://t.me" target="_blank" rel="noopener" class="btn-secondary">Технические материалы</a>
+      <div class="contact-tag">vladislav.agapov@gmail.com</div>
+      <div class="contact-tag">@agapov_vl</div>
     </div>
   </footer>
 
